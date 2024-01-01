@@ -1,0 +1,39 @@
+div.informations {
+    display: flex;
+    align-items: center;
+}
+
+/* left */
+
+div.informations div.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article.now {
+
+    height: 30vh;
+    width: 40vw;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark_active);
+    .left {
+        display: flex;
+    }
+
+    .left * {
+        margin: 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right .img {
+        height: 60px;
+        width: 60px;
+    }
+}

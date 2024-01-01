@@ -1,0 +1,8 @@
+/* components in right panel */
+@import url(../home/components/search.css);
+@import url(../home/components/informations.css);
+
+section.right {
+    display: flex;
+    flex-direction: column;
+}

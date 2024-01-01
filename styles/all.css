@@ -1,0 +1,19 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+/* project css files */
+@import url(../styles/home/home.css);
+
+:root {
+    --dark_primary: #0B1320;
+    --dark_secondary: #202C3C;
+    --dark_inactive: #909BA5;
+    --dark_active: #F4F6FB;
+    --font_roboto: 'Roboto', sans-serif;
+    --font_opensans: 'Open Sans', sans-serif;
+    --font_pacifico: 'Pacifico', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}

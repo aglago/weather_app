@@ -1,0 +1,12 @@
+/* home css files */
+@import url(../home/left_panel.css);
+@import url(../home/right_panel.css);
+
+body {
+    height: 92vh;
+    font-family: var(--font_roboto);
+    margin: 20px 20px;
+    background-color: var(--dark_primary);
+    box-sizing: border-box !important;
+    display: flex;
+}
