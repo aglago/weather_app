@@ -1,6 +1,6 @@
 div.search {
-    width: 50vw;
-    height: 40px;
+    width: 60vw;
+    height: 10vh;
     border-radius: 10px;
     margin-left: 20px;
     background-color: var(--dark_secondary);
@@ -14,7 +14,7 @@ div.search input {
     background-color: var(--dark_secondary);
     margin-left: 20px;
     color: var(--dark_inactive);
-    width: 45vw;
+    width: 55vw;
 }
 
 div.search input::placeholder {

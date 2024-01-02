@@ -1,6 +1,8 @@
 div.informations {
     display: flex;
     align-items: center;
+    height: 80vh;
+    position: relative;
 }
 
 /* left */
@@ -13,12 +15,12 @@ div.informations div.left {
 
 article {
     padding: 20px;
+    margin-left: 20px;
 }
 
 article.now {
-
-    height: 30vh;
-    width: 50vw;
+    height: 30%;
+    width: 60vw;
     display: flex;
     justify-content: space-between;
     color: var(--dark_active);
@@ -45,10 +47,9 @@ article.now {
 }
 
 article.today {
-    height: 30vh;
-    width: 50vw;
+    height: 30%;
+    width: 60vw;
     background-color: var(--dark_secondary);
-    margin-left: 20px;
     border-radius: 10px;
 
     .title {
@@ -58,10 +59,9 @@ article.today {
 
     .for_today {
         display: flex;
-        flex-direction: column;
 
-        .time {
-            font-size: 11px;
+        h6.time {
+            font-size: 8    px;
         }
 
         .img {
@@ -72,13 +72,21 @@ article.today {
 }
 
 .time_container {
-    height: 16vh;
-    width: 10vh;
+    height: 15vh;
+    width: 19vh;
     border-right: 1px solid var(--dark_inactive);
-    margin: 20px;
-    padding-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
     color: var(--dark_inactive);
     display: flex;
+    gap: 3px;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+article.air_conditions {
+    height: 30%;
+    width: 60vw;
+    background-color: var(--dark_secondary);
 }
