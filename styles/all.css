@@ -12,6 +12,7 @@
     --font_roboto: 'Roboto', sans-serif;
     --font_opensans: 'Open Sans', sans-serif;
     --font_pacifico: 'Pacifico', cursive;
+    --width: 55vh;
 }
 
 * {
