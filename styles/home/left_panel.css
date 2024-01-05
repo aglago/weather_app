@@ -3,7 +3,7 @@
 section.left {
     position: relative;
     width: 6vw;
-    height: 100% !important;
+    height: 102% !important;
     background: var(--dark_secondary);
     border-radius: 15px;
     padding: 25px 0;
@@ -11,6 +11,7 @@ section.left {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    margin-bottom: -70px;
 }
 
 .left .logo {
