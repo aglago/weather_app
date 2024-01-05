@@ -150,7 +150,7 @@ article.future {
     width: 30vw;
     background-color: var(--dark_secondary);
     border-radius: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
 
     h4 {
         color: var(--dark_inactive);
