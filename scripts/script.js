@@ -15,6 +15,7 @@ var country;
 var city;
 
 /* fetching the data from the the whether api */
+
 const fetchData = async () => {
     try {
         const response = await fetch(countries);
@@ -26,12 +27,25 @@ const fetchData = async () => {
     }
 }
 
-/* getting information from documentor.getpostman */
-
-// data = fetchData();
-// console.log(data)
-
 /* calling the fetchData function */
+
 fetchData().then((data) => {
     console.log(data);
 });
+
+
+/* function to create option element in select */
+
+const create_option = (data = fetchData()) => {
+    for (country of data.object.data);
+        console.log(country);
+}
+
+create_option();
+
+
+
+/* getting information from documentor.getpostman */
+
+
+
