@@ -1,4 +1,5 @@
 div.search {
+    position: inherit;
     width: 55vw;
     height: 8vh;
     border-radius: 10px;
@@ -14,10 +15,11 @@ div.search select {
     outline: none;
     border: none;
     height: 6vh;
-    width: 50%;
-    /* background-color: var(--dark_secondary); */
+    width: 20vw;
+    background-color: var(--dark_secondary);
     margin-left: 20px;
     color: var(--dark_inactive);
+    z-index: 2;
 }
 
 div.search input::placeholder {
