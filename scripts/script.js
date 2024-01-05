@@ -28,5 +28,10 @@ const fetchData = async () => {
 
 /* getting information from documentor.getpostman */
 
-data = fetchData();
-console.log(data)
+// data = fetchData();
+// console.log(data)
+
+/* calling the fetchData function */
+fetchData().then((data) => {
+    console.log(data);
+});
