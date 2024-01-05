@@ -1,21 +1,21 @@
 div.search {
     width: 55vw;
-    height: 7vh;
+    height: 8vh;
     border-radius: 10px;
     margin-left: 20px;
     background-color: var(--dark_secondary);
     display: grid;
     grid-template-columns: 50% 50%;
+    gap: 2rem;
     align-items: center;
 }
 
-div.search input.sea_country,
-div.search input.see_city {
+div.search select {
     outline: none;
     border: none;
     height: 6vh;
-    width: 25vh;
-    background-color: var(--dark_secondary);
+    width: 50%;
+    /* background-color: var(--dark_secondary); */
     margin-left: 20px;
     color: var(--dark_inactive);
 }
