@@ -1,0 +1,7 @@
+
+
+/* getting the weather conidions */
+// const apiurl = 'https://api.openweathermap.org/data/2.5/weather?appid=';
+/* retuns the longitude and latitude */
+
+/* getting information from documentor.getpostman */
